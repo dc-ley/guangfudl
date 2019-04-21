@@ -14,7 +14,7 @@
 
   ![明暗片](https://github.com/dc-ley/guangfudl/blob/master/figures/441402I1321688.jpg)
 
-- PERC 电池以按照灰度尺（国家标准灰度尺） 1.灰度值差异在 5 级以内合格，大于5级不合格
+- PERC 电池以按照**灰度尺**（国家标准灰度尺） 1.灰度值差异在 5 级以内合格，大于5级不合格
 
   ![灰度尺](https://github.com/dc-ley/guangfudl/blob/master/figures/灰度尺.png)
 
