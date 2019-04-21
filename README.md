@@ -8,15 +8,15 @@
 
 - **短路**：组件单串进行焊接时出现短路，在EL图像上呈现**电池片或电池串为黑色**
 
-  ![短路](https://github.com/dc-ley/guangfudl/tree/master/figures/11812110500912_C20,D20.jpg)
+  ![短路](https://github.com/dc-ley/guangfudl/blob/master/figures/11812110500912.jpg)
 
 - **明暗片**：同一组件的电池片之间存在明暗差异不一致的现象
 
-  ![明暗片](https://github.com/dc-ley/guangfudl/tree/master/figures/441402I1321688.jpg)
+  ![明暗片](https://github.com/dc-ley/guangfudl/blob/master/figures/441402I1321688.jpg)
 
 - PERC 电池以按照灰度尺（国家标准灰度尺） 1.灰度值差异在 5 级以内合格，大于5级不合格
 
-  ![灰度尺](https://github.com/dc-ley/guangfudl/tree/master/figures/灰度尺.png)
+  ![灰度尺](https://github.com/dc-ley/guangfudl/blob/master/figures/灰度尺.png)
 
   
 
