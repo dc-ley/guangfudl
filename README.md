@@ -8,11 +8,11 @@
 
 - **短路**：组件单串进行焊接时出现短路，在EL图像上呈现**电池片或电池串为黑色**
 
-  ![短路](https://github.com/dc-ley/guangfudl/blob/dev/figures/11812110500912.jpg)
+  ![短路](https://github.com/dc-ley/guangfudl/blob/master/figures/11812110500912.jpg)
 
 - **明暗片**：同一组件的电池片之间存在明暗差异不一致的现象
 
-  ![明暗片](https://github.com/dc-ley/guangfudl/blob/dev/figures/441402I1321688.jpg)
+  ![明暗片](https://github.com/dc-ley/guangfudl/blob/master/figures/441402I1321688.jpg)
 
 - PERC 电池以按照**灰度尺**（国家标准灰度尺）
 
@@ -24,11 +24,11 @@
 
 一张组件的分段图片
 
-![分段1](https://github.com/dc-ley/guangfudl/blob/dev/figures/sample1.jpg)
+![分段1](https://github.com/dc-ley/guangfudl/blob/master/figures/sample1.jpg)
 
-![分段2](https://github.com/dc-ley/guangfudl/blob/dev/figures/sample2.jpg)
+![分段2](https://github.com/dc-ley/guangfudl/blob/master/figures/sample2.jpg)
 
-![分段3](https://github.com/dc-ley/guangfudl/blob/dev/figures/sample3.jpg)
+![分段3](https://github.com/dc-ley/guangfudl/blob/master/figures/sample3.jpg)
 
 ## 算法思路
 
