@@ -96,7 +96,7 @@ cv2.imwrite('test.jpg', test)
 
 
 
-![test.jpg](https://github.com/dc-ley/guangfudl/blob/dev/figures/test.jpg)
+![test.jpg](https://github.com/dc-ley/guangfudl/blob/dev/test.jpg)
 
 ### 短路
 
@@ -112,4 +112,4 @@ cv2.imwrite('test_sc.jpg', test)
 
 
 
-![test_sc.jpg](https://github.com/dc-ley/guangfudl/blob/dev/figures/test_sc.jpg)
+![test_sc.jpg](https://github.com/dc-ley/guangfudl/blob/dev/test_sc.jpg)
