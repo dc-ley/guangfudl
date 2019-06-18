@@ -1,6 +1,6 @@
 
 
-```python
+```R
 from get_gray_level import GetGrayLevel
 from light_or_dark import LightOrDark
 from is_shortcut import IsShortCut
@@ -18,7 +18,7 @@ from get_rectangle import GetRectangle
 ## 明暗片图片
 
 
-```python
+```R
 pic_path ='sample'
 pic_names = os.listdir(pic_path)
 paths = [pic_path + '\\'+name for name in pic_names]
@@ -31,7 +31,7 @@ paths = [pic_path + '\\'+name for name in pic_names]
 ## 短路图片
 
 
-```python
+```R
 pic_path ='sample_sc'
 pic_names = os.listdir(pic_path)
 paths = [pic_path + '\\'+name for name in pic_names]
@@ -44,7 +44,7 @@ paths = [pic_path + '\\'+name for name in pic_names]
 ## 读入图片并获得电池片的灰度等级
 
 
-```python
+```R
 pic1 = cv2.imread(paths[0], cv2.IMREAD_COLOR)
 gray_mat1,cut_mat1 = GetGrayLevel(pic1, rows=2, cols=12)
 pic2 = cv2.imread(paths[1], cv2.IMREAD_COLOR)
@@ -56,21 +56,21 @@ gray_mat3,cut_mat3 = GetGrayLevel(pic3, rows=2, cols=12)
 ## 明暗片识别主函数LightOrDark
 
 
-```python
+```R
 results = LightOrDark(gray_mat1,cut_mat1, gray_mat2,cut_mat2, gray_mat3,cut_mat3, threshold=1)
 ```
 
-## 短路识别主函数LightOrDark
+## 短路识别主函数IsShortCut
 
 
-```python
+```R
 results = IsShortCut(gray_mat1, cut_mat1, gray_mat2, cut_mat2, gray_mat3, cut_mat3, threshold=14)
 ```
 
 ## 给图片中的电池片标记灰度等级并框出有问题的电池片
 
 
-```python
+```R
 pic1 = GetTexts(pic1, cut_mat1, gray_mat1, 2, 12)
 pic2 = GetTexts(pic2, cut_mat2, gray_mat2, 2, 12)
 pic3 = GetTexts(pic3, cut_mat3, gray_mat3, 2, 12)
@@ -85,14 +85,16 @@ for j in range(len(results)):
 ### 明暗片
 
 
-```python
+```R
 cv2.imwrite('test.jpg', test)
 ```
 
 
 
 
-    True
+```R
+True
+```
 
 
 
@@ -101,14 +103,16 @@ cv2.imwrite('test.jpg', test)
 ### 短路
 
 
-```python
+```R
 cv2.imwrite('test_sc.jpg', test)
 ```
 
 
 
 
-    True
+```R
+True
+```
 
 
 
